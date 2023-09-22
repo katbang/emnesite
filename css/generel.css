@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Berkshire+Swash&family=Creepster&family=Rubik+Burned&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-image: linear-gradient(
+    to right,
+    #521e1e,
+    #521e1e 70px,
+    #000,
+    #000 70px
+  );
+  background-position: bottom;
+  background-size: 140px 100%;
+}
+
+.karriere {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-image: linear-gradient(
+    to right,
+    white,
+    white 70px,
+    #000,
+    #000 70px
+  );
+  background-position: bottom;
+  background-size: 140px 100%;
+}
+
+nav ul {
+  color: white;
+  background-color: #11260a9e;
+  list-style: none;
+  font-family: "Creepster", cursive;
+  font-size: 18px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:visited {
+  color: white;
+}
+
+img {
+  max-width: 100%;
+  z-index: 1;
+}
+
+p {
+  font-family: "Berkshire Swash", cursive;
+}
+
+.indhold .cirkel {
+  background-color: #11260a9e;
+  color: #c2bdbd;
+  padding: 10px;
+}
+
+#liste {
+  padding-right: 0;
+  margin: 0;
+  background-color: black;
+  color: #c2bdbd;
+  border: 4mm ridge rgba(211, 220, 50, 0.6);
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#liste p {
+  font-family: "Times New Roman", Times, serif;
+}
+
+#liste ul {
+  padding-right: 25px;
+  list-style-position: inside;
+}
+
+#billede1:hover:after {
+  content: url(../images/saks.png);
+  display: block;
+  position: absolute;
+  left: 70%;
+  top: 730px;
+}
+
+#billede2:hover:after {
+  content: url(../images/abe.png);
+  display: block;
+  position: absolute;
+  left: 18%;
+  top: 1120px;
+}
+
+#billede3:hover:after {
+  content: url(../images/chokolade.png);
+  display: block;
+  position: absolute;
+  left: 52%;
+  top: 1050px;
+}
+
+#billede4:hover:after {
+  content: url(../images/meatpie.png);
+  display: block;
+  position: absolute;
+  left: 5%;
+  top: 1100px;
+}
+
+#billede5:hover:after {
+  content: url(../images/kort.png);
+  display: block;
+  position: absolute;
+  left: 72%;
+  top: 1350px;
+}
+
+.billede6:hover:after {
+  content: url(../images/frankenweenie.png);
+  display: block;
+  position: absolute;
+  left: 60%;
+  top: 720px;
+}
+
+.box .cirkel {
+  padding: 10px;
+  background-color: #11260ac6;
+  color: #e6e6e6ff;
+  border: 4mm ridge rgba(211, 220, 50, 0.6);
+}
+
+.box .cirkel:hover {
+  background: url(../images/alice1.png) no-repeat;
+  background-size: 120%;
+}
+
+h1 a {
+  padding-left: 15px;
+  text-decoration: none;
+  font-family: "Rubik Burned", cursive;
+}
+
+h1 a:link {
+  color: #c2bdbd;
+}
+
+h1 a:visited {
+  color: #c2bdbd;
+}
+
+h1 a:hover {
+  color: rgba(211, 220, 50, 0.6);
+}
+
+.box2,
+#box {
+  padding: 10px;
+  background-color: #000000ad;
+  color: #c2bdbd;
+  border: 2mm ridge rgba(211, 220, 50, 0.6);
+  font-family: "Amatic SC", cursive;
+  font-size: 20px;
+}
